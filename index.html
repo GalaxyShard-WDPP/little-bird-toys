@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Bird Toys</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <nav id="navigation">
+        <img src="logo/logo-smallest.png" alt="" class="logo">
+        <a href="#home">About</a>
+        <a href="#toy">Select a Toy!</a>
+        <a href="#visit">Visit Us!</a>
+    </nav>
+
+    <div class="container-fluid py-4">
+        <section id="home">
+            <div class="h1 display-4 mb-3 text-center">About</div>
+            <p class="text-center">
+                Our handcrafted classic, wooden toys are designed to bring out that slowness in your home. From Planes,
+                trains,
+                automobiles and boats, playsets, all of our wooden toys are designed to spark imagination. The going may
+                be a
+                little slower, but oh the things you’ll see along the way!
+                Since 2018, Little Bird Toys has delighted families looking for quality children’s toys. Our collection
+                of
+                heirloom quality products are built to stand the test of time and to be enjoyed from sibling to sibling
+                and
+                generation to generation.
+            </p>
+            
+            <div class="h2 fw-normal my-5 text-center">What We Strive For</div>
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="h3 fw-normal text-center">Quality.</div>
+                    <p>
+                        You won’t find plastic or batteries here. Our handmade toys are carefully crafted from
+                        sustainable Baltic
+                        birch wood and are designed, manufactured, and tested in the U.S.A – right here in Toms River,
+                        NJ. Each
+                        handcrafted item is made to heirloom quality, designed to not only withstand the wear of
+                        childhood, but to
+                        be strong enough to pass on from sibling to sibling and generation to generation. Hold one of
+                        our wooden
+                        toys in your hand, You’ll feel the difference that our makers bring to each handcrafted piece.
+                        All of our products meet or exceed Consumer Product Safety standards and are finished with
+                        toxin-free paints
+                        that meet CA-prop65. Our toys undergo physical, mechanical, and fire-safety testing guided by
+                        ASTM
+                        standards. And every piece we craft sustains our own in-house physical testing procedure to
+                        ensure unmatched
+                        durability and stability.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="h3 fw-normal text-center">Sustainability.</div>
+                    <p>
+                        Wood is an important part of who we are. Early on we chose wood for its inherently durable
+                        qualities with
+                        the intention of making toys and furniture that could withstand the test of time – and stay out
+                        of the
+                        landfill.
+                        Our wooden toys are designed to withstand the wear of play and to be safely enjoyed from
+                        generation to
+                        generation.
+                        Our process of sourcing, manufacturing, and shipping only within the U.S. allows us to support
+                        our national
+                        economy and reduce the often-hefty carbon emissions that come with international trade and
+                        shipping.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <hr>
+
+        <section id="toy" class="text-center mt-4">
+            <div class="h1 display-4 mb-3">Select a Toy!</div>
+            <select name="toy-selector" id="toy-selector" class="mt-4">
+                <option selected value="block">Block</option>
+                <option value="boat">Boat</option>
+                <option value="car">Car</option>
+                <option value="plane">Plane</option>
+                <option value="train">Train</option>
+            </select>
+            <!-- TODO: add the product info around here -->
+            <img id="toy-image" class="d-block m-auto" src="img/block1.jpg" alt="">
+            <form id="purchase-form" action="" method="get">
+                
+                    <label for="nameField" class="mt-4">Full Name</label>
+                    <input id="nameField" name="nameField" type="text" placeholder="John Doe">
+                    
+                    <label for="phoneField">Phone Number</label>
+                    <input id="phoneField" name="phoneField" type="text" placeholder="212-555-2390">
+                    
+                    <label for="emailField">Email Address</label>
+                    <input id="emailField" name="emailField" type="text" placeholder="email@example.com">
+                    
+                    <label for="cardNumField">Card Number</label>
+                    <input id="cardNumField" name="cardNumField" type="text" placeholder="">
+                    
+                    <label for="expDateField">Exp. Date</label>
+                    <input id="expDateField" name="expDateField" type="text" placeholder="">
+
+                    <label for="CVVField">CVV Code</label>
+                    <input id="CVVField" name="CVVField" type="text" placeholder="">
+
+                    <input type="submit" name="submit">
+
+            </form>
+        </section>
+
+        <hr class="my-4">
+        
+        <section id="visit" class="text-center">
+            <div class="h1 display-4 mb-3">Visit Us!</div>
+            You’re more than a customer to us – you’re a part of our family!  We love hearing stories of how your children and grandchildren are playing with our toys. 
+            Visit us at our Toms River, NJ toy store!  All of our toys are made on-site at this location and you’ll find an old-fashioned toy store with cozy corners to play and explore – and time for us to get to know each other!
+        </section>
+
+        <footer id="info">
+            
+        </footer>
+    </div>
+</body>
+
+</html>

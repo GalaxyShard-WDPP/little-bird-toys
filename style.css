@@ -1,0 +1,51 @@
+:root {
+  --nav-height: 50px;
+}
+
+#navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  border-bottom: 2px solid black;
+
+  padding: 0px 0px 0px 10px;
+  border-radius: 0px 0px 20px 0px;
+
+  z-index: 1;
+  background-color: white;
+}
+
+#navigation > .logo {
+  position: absolute;
+  right: 10px;
+  height: var(--nav-height);
+}
+
+#navigation > a {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  line-height: var(--nav-height);
+  margin: 0px 10px 0px 10px;
+}
+
+body {
+  margin: var(--nav-height) 0px 0px 0px;
+}
+
+.container-fluid {
+  max-width: 1000px;
+  width: 95%;
+  margin: auto;
+}
+#toy-image {
+    height:300px;
+    border-radius:5px;
+}
+#purchase-form > input {
+    display:block;
+    margin:5px auto 20px auto;
+}
